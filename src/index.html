@@ -8,8 +8,28 @@
       content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      .container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        height: 30vh;
+        width: 100vw;
+        border-style: dashed;
+              }
+      .column{
+        text-align: center;
+        line-height: 30vh;
+        border-style: dashed;
+      }        
+    </style>
   </head>
   <body>
+    <div class="container">
+    <div class="column">A</div>
+    <div class="column">B</div>
+    <div class="column">C</div>
+
+    </div>
     <div class="main">
       <div class="emoji mb-6">💣🤯💥</div>
       <button class="button">Boom?</button>
